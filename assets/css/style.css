@@ -84,6 +84,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
   margin: 0;
   padding: 0;
+  z-index:-1;
   font-weight: 600;
   -moz-text-align-last: center;
   text-align-last: center;
@@ -486,12 +487,16 @@ section {
   border: 2px solid #1f5297;
 }
 
+.modal{
+	z-index: 9999;
+}
 
 .modal .modal-content .modal-body .modal-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
   border-left: 2px solid #1f5297;
   position: relative;
+  z-index: 2;
 }
 
 .modal .modal-content .modal-body .modal-item h4 {
